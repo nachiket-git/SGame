@@ -1,0 +1,11 @@
+<template>
+    <div class="game-container">
+        <canvas lwc:dom="manual" class="game-canvas" width="300" height="300"></canvas>
+        <div class="game-over-message" hidden>Game Over</div>
+        <audio class="eat-sound" src="path_to_your_sound_file.mp3"></audio>
+    </div>
+    <div class="controls">
+        <button class="control-button" onclick={startGame}>Start Game</button>
+        <button class="control-button" onclick={resetGame}>Reset Game</button>
+    </div>
+</template>
